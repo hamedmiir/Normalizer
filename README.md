@@ -6,6 +6,7 @@ Control threads and check correctness of answer handled by semaphores.
 ### Running
 Run the below codes in terminal
 ```
-g++ sensor.cpp -pthread -o sensor && ./sensor```
+g++ sensor.cpp -pthread -o sensor && ./sensor
+```
 
 Normalized data of inputs.txt file will be store in result.txt file.
