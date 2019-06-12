@@ -4,7 +4,7 @@ An application that normalize data of sensors in the each time, using multi thre
 Control threads to avoid from race condition and checking correctness of answer handled by semaphores.
 
 ### Running
-Run the below codes in terminal
+Run the below command in terminal
 ```
 g++ sensor.cpp -pthread -o sensor && ./sensor
 ```
